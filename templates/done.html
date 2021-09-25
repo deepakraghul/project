@@ -1,0 +1,18 @@
+<h1> SUBMITTED</h1>
+
+<h1> To get all items </h1>
+{% for i in b %}
+cloth name: {{b.cloth_name}}
+price:{{b.price}}
+{% endfor %}
+
+<h1> To get particular Item by id </h1>
+{{c.cloth_name}} price is: {{c.price}}
+
+
+<h1> To get details of frocks </h1>
+
+<ul>{% for i in d %}
+<li>{{d.quantity}}</li>
+<li>{{d.price}}</li>
+</ul>{% endfor %}
